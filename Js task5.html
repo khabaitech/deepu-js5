@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js_task5</title>
+	 <style type="text/css">
+	 	#main{
+	 		height: 600px;
+	 		width: 800px;
+	 		background-color: cyan;
+	 	}
+		#one{
+			height:400px;
+			width: 600px;
+			border-radius: 10px;
+			border: 1px solid cyan;
+		    background-color: #362312;
+		    box-shadow: 2px 4px 20px 20px;
+		}
+		h1{
+			font-size: 70px;
+			margin-top: 5px;
+			color:cyan;
+		}
+		h2{
+			font-size: 40px;
+			margin-top: -50px;
+			color: white;
+		}
+		#bt{
+			height:40px;
+			width: 200px;
+			border-radius: 10px;
+			margin-top: 100px;
+			margin-left:-50px;
+			font-size: 20px;
+			background-color:pink;
+		}
+		#bt1{
+			height:40px;
+			width: 200px;
+			border-radius: 10px;
+			margin-right: -50px;
+			font-size: 20px;
+			background-color:pink;
+		}
+	    .num{
+		    font-size: 130px;
+		    height: 200px;
+			width: 200px;
+			border: none;
+		    color: orange;
+		    background-color: #362312;
+		    margin-top: -60px;
+		    text-align: center;
+			margin-left: -110px;
+			position: absolute;
+		}
+	</style>
+</head>
+<body bgcolor="orange">
+	
+	<center>
+		<div id="main"><br><br><br><br><br>
+	<div id="one">
+		<h1>~~khabai Tech~~</h1>
+		<h2>~~~ Counter ~~~</h2><br>
+		<input type="number" id="myNumber" class="num" value="0"><br><br><br>
+		<button id="bt" onclick="myFunction()" type="button" class="btn btn-primary button1"><b>LOWER COUNT</b></button>
+		<button id="bt1" onclick="myFunction1()" type="button" class="btn btn-primary button2"><b>ADD COUNT</b></button>
+	</div>
+	<script type="text/javascript">
+		function myFunction() {
+       document.getElementById("myNumber").stepUp(-1);
+       }
+       function myFunction1() {
+       document.getElementById("myNumber").stepUp(1);
+       }
+	</script>
+</div>
+   </center>
+</body
+</html>
